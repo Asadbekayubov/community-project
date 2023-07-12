@@ -590,8 +590,7 @@ body {
 
 
 /* HEADER START */
-.header {
-}
+
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -599,10 +598,12 @@ body {
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
 }
+
 .sitenav {
   display: flex;
   align-items: center;
 }
+
 .sitenav__list {
   display: flex;
   gap: 3.2rem;
@@ -614,6 +615,7 @@ body {
   color: #394149;
   line-height: 1.5;
 }
+
 .header__link {
   margin-left: 4rem;
   background-color: rgba(245, 138, 7, 0.1);
@@ -626,6 +628,111 @@ body {
 
 
 /* FOOTER START */
+.footer {
+  background-color: var(--footer-bg-color);
+}
 
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+
+.footer-logo {
+  margin-bottom: 3.2rem;
+}
+
+.footer__top__social__title {
+  color: var(--white-color);
+  margin-bottom: 3.2rem;
+}
+
+.footer__top__social__icons-list {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.footer__top__title {
+  color: var(--white-color);
+  margin-bottom: 2.4rem;
+}
+
+.footer__top__link {
+  color: var(--white-color);
+  font-size: 1.6rem;
+  margin: 0.8rem 0;
+}
+
+.footer__top__contact__address {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__top__contact__mail {
+  color: var(--white-color);
+  margin-bottom: 1.6rem;
+}
+
+.footer__top__contact__tel {
+  color: var(--white-color);
+}
+
+.footer__top__form__input {
+  width: 342px;
+  height: 54px;
+  border-radius: 31px;
+  background-color: var(--white-color);
+  border: none;
+  outline: none;
+  padding-left: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.footer__top__form__input::placeholder {
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 19px;
+  color: #9C9C9C;
+}
+
+.footer__top__form__btn {
+  padding: 1.7rem 3.2rem;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 3.1rem;
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__bottom__pp {
+  color: var(--white-color);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.footer__bottom__links {
+  display: flex;
+  gap: 32px;
+}
+
+.footer__bottom__links__link {
+  color: var(--white-color);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
 
 /* FOOTER END */
