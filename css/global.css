@@ -586,11 +586,7 @@ main {
   flex-grow: 1;
 }
 
-.btn {}
 
-.active {
-  color: var(--main-color);
-}
 
 /* GLOBAL CSS END */
 
@@ -632,6 +628,11 @@ main {
 
 /* HEADER END */
 
+.btn {}
+
+.active {
+  color: var(--main-color);
+}
 
 /* FOOTER START */
 .footer {
