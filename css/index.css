@@ -208,3 +208,42 @@
 .features__bottom__card__text {
     font-size: 1.6rem;
 }
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4.1rem;
+    padding-bottom: 8rem;
+}
+
+.about__info__title {
+    color: var(--text-black-color);
+    margin-bottom: 3.2rem;
+    margin-top: 3rem;
+}
+
+.about__info__text {
+    margin-bottom: 4.8rem;
+}
+
+.about__info__cards {
+    display: flex;
+    gap: 2.6rem;
+}
+
+.about__info__cards__card_number {
+    font-family: Inter;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-bottom: 1.6rem;
+}
+
+.about__info__cards__card__title {
+    color: var(--text-black-color);
+    margin-bottom: 1.6rem;
+}
+
+.about__info__cards__card__text {
+    font-size: 1.6rem;
+}
