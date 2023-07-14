@@ -327,3 +327,37 @@
 .service__bottom__info__btn img{
     margin-left: 0.8rem;
 }
+
+
+/* VACANCY */
+.vacancy {
+    width: 1348px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 13rem;
+}
+
+.vacancy__img {
+    width: 50%;
+    margin-left: -5px;
+}
+.vacancy__info {
+    background-color: var(--main-color);
+    width: 53%;
+    height: 364px;
+    padding: 6rem;
+}
+.vacancy__title {
+    font-size: 4rem;
+    color: var(--white-color);
+    margin-bottom: 4rem;
+}
+.vacancy__btn {
+    padding: 1.5rem 3.2rem;
+    background-color: var(--white-color);
+    border-radius: 3.1rem;
+    font-size: 1.6rem;
+    color: var(--main-color);
+}
